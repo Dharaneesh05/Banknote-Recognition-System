@@ -1,6 +1,5 @@
 # Model files
 *.h5
-*.pt
 *.pth
 *.model
 *.pkl
