@@ -1,6 +1,6 @@
 # Banknote Recognition System
 
-A machine learning-based system for recognizing and detecting banknotes using computer vision and deep learning.
+Real-time Indian banknote recognition system built using YOLOv8, Flask, and computer vision techniques.
 
 ## Project Structure
 
@@ -76,12 +76,3 @@ python model/train_yolo.py
 ```bash
 python model/download_images.py
 ```
-
-## Models
-
-- **YOLOv8**: Real-time object detection
-- **TensorFlow CNN**: Image classification model
-
-## License
-
-MIT License
