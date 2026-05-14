@@ -4,8 +4,8 @@ import cv2
 import numpy as np
 from flask import Flask, request, render_template, jsonify
 
-app = Flask(__name__)
-UPLOAD_FOLDER = 'static/uploads'
+app = Flask(__name__, template_folder='templates', static_folder='static')
+UPLOAD_FOLDER = os.path.join(os.path.dirname(__file__), 'static', 'uploads')
 if not os.path.exists(UPLOAD_FOLDER):
     os.makedirs(UPLOAD_FOLDER)
 
